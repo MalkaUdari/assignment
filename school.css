@@ -1,0 +1,51 @@
+
+    /* CSS for the webpage */
+    @font-face {
+      font-family: 'Pacifico';
+      src: url('fonts/pacifico-regular.ttf') format('truetype');
+    }
+    
+    @font-face {
+      font-family: 'Quicksand';
+      src: url('fonts/quicksand-regular.ttf') format('truetype');
+    }
+    
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+    
+    h1 {
+      text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+     
+	  
+    }
+    
+    .box {
+	  box-sizing:border-box;
+      width: 350px;
+      height: 600px;
+      margin-bottom:10px;
+      background-color: #f2f2f2;
+      float: left;
+      margin-right: 25px;
+	  border: 1px solid;
+      border-radius: 5px;
+	  box-shadow: 4px 8px 1px 1px #5F9EA0;
+    }
+    
+    .box h2 {
+      font-family: 'Pacifico', cursive;
+      color: #333333;
+    }
+    
+    .box p {
+      padding: 10px;
+    }
+
+
